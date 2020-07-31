@@ -4,3 +4,119 @@
     padding: 0;
     border: 1px dotted grey;
 }
+
+body {
+    background-color: rgba(221, 207, 201, 0.719);
+    font-family: "Arial Nova";
+    border: 5px solid white;
+    box-shadow: 0px -1px 19px -2px rgb(255, 255, 255);
+    border-radius: 200px 0px 90px 0px;
+    margin: 0 auto;
+    width: 785px;
+    padding: 110px 110px 110px 125px;
+}
+
+header {
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.24);
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+/*beginning of styling the nav block and its child elements*/
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.myAnchors {
+    display: inline-block;
+    background-color: rgba(221, 207, 201, 0.719);
+    padding: 10px;
+}
+
+.myAnchors > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.myAnchors > a:hover {
+    text-shadow: 0px 0px 6px rgb(177, 148, 115);
+    color: white;
+}
+/*ending of styling the nav block and its child elements*/
+
+/*beginning of editing the main block and its child elements*/
+article {
+    border: 5px solid white;
+    margin: 30px 0px 30px 0px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px 0px 5px 0px;
+    color: white;
+    text-decoration: underline;
+}
+
+img {
+    width: 150px;
+    height: 141px;
+    float: left;
+    margin: 26px 10px 10px 40px;
+    border: 2px solid white;
+    box-shadow: 0px -1px 13px -6px rgba(120,120,120,1);
+}
+
+section {
+    display: inline-block;
+    margin: 55px 0px 65px 20px;
+}
+
+span:first-child{
+    color:white;
+    font-weight: bold;
+}
+
+span:nth-child(2){
+    color: rgba(128, 128, 128, 0.822);
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+span:nth-child(2) > a {
+    color: rgba(128, 128, 128, 0.822);
+}
+
+span:nth-child(2) >a:hover {
+    color: gray;
+}
+
+
+
+
+#experienceTable {
+    margin: 0 auto;
+    color: gray;
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.borders {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 30px 10px 30px;
+    background-color: rgba(226, 226, 226, 0.205);
+}
+
+#cell1, #cell2, #cell3 {
+    background-color: rgba(160, 160, 160, 0.582);
+    font-weight: bold;
+}

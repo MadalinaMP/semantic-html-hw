@@ -15,9 +15,9 @@
 
     <nav>
         <ul>
-            <li><a href="about.html">Go to About Me</a></li>
-            <li><a href="#">Go to Experienta </a></li>
-            <li><a href="#">Go to Contact</a></li>
+            <li class="myAnchors"><a href="about.html">Go to About Me</a></li>
+            <li class="myAnchors"><a href="#">Go to Experienta </a></li>
+            <li class="myAnchors"><a href="#">Go to Contact</a></li>
         </ul>
     </nav>
 
@@ -27,21 +27,40 @@
             <img src="src/me.JPG">
             <section>
                 <ul>
-                    <li>Name: Pui Madalina-Maria</li>
-                    <li>Telefon: 07** *** ***</li>
-                    <li>Github:<a href="https://github.com/MadalinaMP" target="_blank">github.com/MadalinaMP</a></li>
-                    <li>E-mail:<a href="mailto:madalinapuimp@gmail.com" class="myLinks">madalinapuimp@gmail.com</a></li>
+                    <li><span>Name:</span> <span>Pui Madalina-Maria</span></li>
+                    <li><span>Telefon:</span> <span>07** *** ***</span></li>
+                    <li><span>Github:</span> <span><a href="https://github.com/MadalinaMP"
+                                target="_blank">github.com/MadalinaMP</a></span></li>
+                    <li><span>E-mail:</span> <span><a href="mailto:madalinapuimp@gmail.com"
+                                class="myLinks">madalinapuimp@gmail.com</a></span></li>
+                </ul>
             </section>
         </article>
 
         <article>
             <h2>Experienta Profesionala</h2>
-
+            <table id="experienceTable">
+                <tr>
+                    <td class="borders" id="cell1">An</td>
+                    <td class="borders" id="cell2">Companie</td>
+                    <td class="borders" id="cell3">Pozitie</td>
+                </tr>
+                <tr>
+                    <td class="borders">2018</td>
+                    <td class="borders">Msg System</td>
+                    <td class="borders">Programator</td>
+                </tr>
+                <tr>
+                    <td class="borders">2016</td>
+                    <td class="borders">Freelancer</td>
+                    <td class="borders">Programator</td>
+                </tr>
+            </table>
         </article>
     </main>
 
     <aside>
-        <p>This is an aside block presenting an frame to Scoala Informala de IT.</p>
+        <p>This is an aside block presenting<br> an iframe to Scoala Informala de IT.</p>
         <iframe name="iframeScoalaInformala" src="https://scoalainformala.ro/" frameborder="yes"
             scrolling="yes"></iframe>
     </aside>

@@ -16,8 +16,8 @@
     <nav>
         <ul>
             <li class="myAnchors"><a href="about.html">Go to About Me</a></li>
-            <li class="myAnchors"><a href="#">Go to Experienta </a></li>
-            <li class="myAnchors"><a href="#">Go to Contact</a></li>
+            <li class="myAnchors"><a href="#experienta">Go to Experienta </a></li>
+            <li class="myAnchors"><a href="#contact">Go to Contact</a></li>
         </ul>
     </nav>
 
@@ -38,35 +38,36 @@
         </article>
 
         <article>
-            <h2>Experienta Profesionala</h2>
-            <table id="experienceTable">
-                <tr>
-                    <td class="borders" id="cell1">An</td>
-                    <td class="borders" id="cell2">Companie</td>
-                    <td class="borders" id="cell3">Pozitie</td>
-                </tr>
-                <tr>
-                    <td class="borders">2018</td>
-                    <td class="borders">Msg System</td>
-                    <td class="borders">Programator</td>
-                </tr>
-                <tr>
-                    <td class="borders">2016</td>
-                    <td class="borders">Freelancer</td>
-                    <td class="borders">Programator</td>
-                </tr>
-            </table>
+            <h2 id="experienta">Experienta Profesionala</h2>
+            <div id="table">
+                <div class="tr">
+                    <div class="td">An</div>
+                    <div class="td">Companie</div>
+                    <div class="td">Pozitie</div>
+                </div>
+                <div class="tr">
+                    <div class="td">2018</div>
+                    <div class="td">Msg System</div>
+                    <div class="td">Programator</div>
+                </div>
+                <div class="tr">
+                    <div class="td">2016</div>
+                    <div class="td">Freelancer</div>
+                    <div class="td">Programator</div>
+                </div>
+            </div>
         </article>
     </main>
 
     <aside>
-        <p>This is an aside block presenting<br> an iframe to Scoala Informala de IT.</p>
+        <p>This is an aside fixed block with an<br>iframe tag to Scoala Informala de IT.</p>
+        <p>It's supposed to act like an annoying ad. <br> Move your mouse on it to hide it!</p>
         <iframe name="iframeScoalaInformala" src="https://scoalainformala.ro/" frameborder="yes"
             scrolling="yes"></iframe>
     </aside>
 
     <footer>
-        <h2>Contact me</h2>
+        <h3 id="contact">Contact me</h3>
         <form class="centerButtons">
             <label for="title">Titlu:</label><br>
             <input type="text"> <br>
